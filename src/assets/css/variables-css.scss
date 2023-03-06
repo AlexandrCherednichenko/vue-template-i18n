@@ -1,0 +1,15 @@
+:root {
+    --rem: #{$baseRem};
+    --hHeader: #{$hHeader};
+    --wHeader: #{$wHeader};
+    --fsHeaderH1: #{$header_h1_FontSize};
+    --fsHeaderH2: #{$header_h2_FontSize};
+    --fsHeaderH3: #{$header_h3_FontSize};
+    --fsHeaderH4: #{$header_h4_FontSize};
+    --fsHeaderH5: #{$header_h5_FontSize};
+    --fsHeaderH6: #{$header_h6_FontSize};
+
+    @media #{$maxWXl} {
+        --rem: 14px;
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "locales": {
+        "ru": "Russian",
+        "en": "English"
+    },
+    "welcome": "Welcome!",
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+    }
+}

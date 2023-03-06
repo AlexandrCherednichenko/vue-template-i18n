@@ -1,0 +1,70 @@
+// Sizes
+$mwContent: 1680px;
+$gContent: 46px;
+$gContentSm: 9px;
+$baseRem: 16px;
+
+// Titles
+$header_h1_FontSize: 40px;
+$header_h2_FontSize: 32px;
+$header_h3_FontSize: 26px;
+$header_h4_FontSize: 24px;
+$header_h5_FontSize: 22px;
+$header_h6_FontSize: 18px;
+
+// Font-weight
+$fNormal: 400;
+$fMedium: 500;
+$fBold: 700;
+
+// Height
+$hHeader: 60px;
+
+// Width
+$wHeader: 100vw;
+
+// Z-index
+$z-index-100: 100;
+$z-index-90: 90;
+$z-index-70: 70;
+$z-index-50: 50;
+$z-index-30: 30;
+$z-index-10: 10;
+
+// Breakpoints
+$brWXl: 1400px;
+$brWLg: 1200px;
+$brWMd: 992px;
+$brWSm: 768px;
+$brWXs: 576px;
+
+$brHXl: 1025px;
+$brHLg: 901px;
+$brHMd: 801px;
+$brHSm: 769px;
+$brHXs: 577px;
+
+$brMinWidth: 375px;
+
+//Medias
+$maxWXl: '(max-width: #{$brWXl - 1})';
+$maxWLg: '(max-width: #{$brWLg - 1})';
+$maxWMd: '(max-width: #{$brWMd - 1})';
+$maxWSm: '(max-width: #{$brWSm - 1})';
+$maxWXs: '(max-width: #{$brWXs - 1})';
+
+$minWXl: '(min-width: #{$brWXl})';
+$minWLg: '(min-width: #{$brWLg})';
+$minWMd: '(min-width: #{$brWMd})';
+$minWSm: '(min-width: #{$brWSm})';
+$minWXs: '(min-width: #{$brWXs})';
+
+$maxHXl: '(max-height: #{$brHXl - 1})';
+$maxHLg: '(max-height: #{$brHLg - 1})';
+$maxHMd: '(max-height: #{$brHMd - 1})';
+$maxHSm: '(max-height: #{$brHSm - 1})';
+$maxHXs: '(max-height: #{$brHXs - 1})';
+
+$mMinWidth: '(max-width: #{$brMinWidth - 1})';
+$mMaxContent: '(max-width: #{$mwContent + 2 * $gContent})';
+$mPhoneHorizontal: '#{$maxWMd} and #{$maxHXs} and (orientation: landscape)';
